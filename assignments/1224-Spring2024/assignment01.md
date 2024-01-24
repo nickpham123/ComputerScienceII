@@ -67,7 +67,7 @@ example above the output should look something like:
 
 ```text
 Win Percentage: 38.37%
-Win/Loss: 2/10
+Win/Loss: 5/7
 ```
 
 * You should perform basic input error checking and
