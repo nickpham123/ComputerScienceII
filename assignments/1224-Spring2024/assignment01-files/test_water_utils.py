@@ -65,7 +65,7 @@ class WaterUtilsUnitTests(unittest.TestCase):
     def test_average_rainfall_002(self):
         map = [
           [ -1.00, -2.00 ],
-		  [ -1.25, -2.75 ],
+          [ -1.25, -2.75 ],
         ]
         expected = 0.0
         actual = average_rainfall(map)
@@ -74,8 +74,8 @@ class WaterUtilsUnitTests(unittest.TestCase):
     def test_average_rainfall_003(self):
         map = [
           [ 1.00, 2.00 ],
-		  [ 1.25, 2.25 ],
-		  [ 1.50, 2.50 ],
+	  [ 1.25, 2.25 ],
+	  [ 1.50, 2.50 ],
         ]
         expected = 1.75
         actual = average_rainfall(map)
