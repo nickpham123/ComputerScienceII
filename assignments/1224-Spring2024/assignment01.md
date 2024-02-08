@@ -167,8 +167,8 @@ An example:
 `e3aab55e-697b-4949-b312-42f6018f0daa,Tim,Carlson,A,2022-03-13T05:58:26,Xpensiv,220`
 
 Patients can and will appear multiple times (one for each dose of each
-medication they received).  We have provided code that loads up data
-file(s) in this format in a data representation (see the provided files).
+medication they received).  <strike>We have provided code that loads up data
+file(s) in this format in a data representation (see the provided files).</strike>
 
 ### Report 1: Totals Report
 
