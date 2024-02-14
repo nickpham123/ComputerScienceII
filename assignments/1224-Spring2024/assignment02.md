@@ -162,10 +162,18 @@ or JSON. Some common libraries and more information on each
 of the formats can be found with the following resources:
 
 -   XStream, a light-weight XML binding framework (recommended for XML):
-    <http://x-stream.github.io/>
+    <http://x-stream.github.io/>  
+
+    - Download: <http://x-stream.github.io/download.html> (you'll likely
+      want the "XStream Core only" JAR and the "XmlPull" JAR files)
+    - Tutorial: <http://x-stream.github.io/tutorial.html>
 
 -   Google-gson (recommended for JSON) library to convert between Java
-    objects and JSON: <http://code.google.com/p/google-gson/>
+    objects and JSON: <http://code.google.com/p/google-gson/>  
+
+    - Download: <https://mvnrepository.com/artifact/com.google.code.gson/gson>
+    (click the latest version, then in "files", download the JAR file)
+    - Tutorial: <https://howtodoinjava.com/gson/pretty-print-json-output/>
 
 -   An XML Validator: <http://www.w3schools.com/xml/xml_validator.asp>
 
