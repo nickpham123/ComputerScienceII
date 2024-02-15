@@ -75,7 +75,7 @@ d6388b8b-b36b-4ca0-9f3d-48e86e78f79f,Marceline,Abadeer,6756 Schiller Hill,New Ca
 
 Data pertaining to each store on the system is stored in a CSV file in
 `data/Stores.csv`. The format is as follows: the first line will
-contain a single integer indicating the total number of records. Each
+contain a header indicating the fields.  Each
 subsequent line contains a comma delimited data fields:
 
 -   Store Code -- a unique alphanumeric identifier for the store
