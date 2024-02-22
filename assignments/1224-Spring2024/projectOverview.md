@@ -194,7 +194,7 @@ To export your project for submission to grader, do the following:
     look something like the following.
 
     ::: center
-    ![image](export.png)
+    ![image](images/export.png)
     :::
 
 5.  You can now click `Finish` and it should save the project as
