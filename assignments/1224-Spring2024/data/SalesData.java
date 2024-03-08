@@ -8,14 +8,6 @@ import java.sql.Statement;
 import java.util.Arrays;
 import java.util.List;
 
-import org.apache.logging.log4j.Level;
-import org.apache.logging.log4j.LogManager;
-import org.apache.logging.log4j.Logger;
-import org.apache.logging.log4j.core.config.Configurator;
-import org.apache.logging.log4j.core.config.DefaultConfiguration;
-
-import com.fmt.database.ConnectionFactory;
-
 /**
  * This is a collection of utility methods that define a general API for
  * interacting with the database supporting this application.
@@ -32,7 +24,7 @@ public class SalesData {
 
 	/**
 	 * Method to add a person record to the database with the provided data.
-	 * 
+	 *
 	 * @param personUuid
 	 * @param firstName
 	 * @param lastName
@@ -50,7 +42,7 @@ public class SalesData {
 	/**
 	 * Adds an email record corresponding person record corresponding to the
 	 * provided <code>personUuid</code>
-	 * 
+	 *
 	 * @param personUuid
 	 * @param email
 	 */
@@ -62,7 +54,7 @@ public class SalesData {
 	/**
 	 * Adds a store record to the database managed by the person identified by the
 	 * given code.
-	 * 
+	 *
 	 * @param storeCode
 	 * @param managerCode
 	 * @param street
@@ -79,10 +71,10 @@ public class SalesData {
 	/**
 	 * Adds an item record to the database of the given <code>type</code> with the
 	 * given <code>code</code>, <code>name</code> and <code>basePrice</code>.
-	 * 
+	 *
 	 * Valid values for the <code>type</code> will be <code>"Product"</code>,
 	 * <code>"Service"</code>, <code>"Data"</code>, or <code>"Voice"</code>.
-	 * 
+	 *
 	 * @param itemCode
 	 * @param name
 	 * @param type
@@ -94,7 +86,7 @@ public class SalesData {
 
 	/**
 	 * Adds an Sale record to the database with the given data.
-	 * 
+	 *
 	 * @param saleCode
 	 * @param storeCode
 	 * @param customerPersonUuid
@@ -109,7 +101,7 @@ public class SalesData {
 	/**
 	 * Adds a particular product (identified by <code>itemCode</code>) to a
 	 * particular sale (identified by <code>saleCode</code>).
-	 * 
+	 *
 	 * @param saleCode
 	 * @param itemCode
 	 */
@@ -122,7 +114,7 @@ public class SalesData {
 	 * Adds a particular leased (identified by <code>itemCode</code>) to a
 	 * particular sale (identified by <code>saleCode</code>) with the start/end date
 	 * specified.
-	 * 
+	 *
 	 * @param saleCode
 	 * @param startDate
 	 * @param endDate
@@ -136,7 +128,7 @@ public class SalesData {
 	 * particular sale (identified by <code>saleCode</code>) with the specified
 	 * number of hours. The service is done by the employee with the specified
 	 * <code>servicePersonUuid</code>
-	 * 
+	 *
 	 * @param saleCode
 	 * @param itemCode
 	 * @param billedHours
@@ -151,7 +143,7 @@ public class SalesData {
 	 * Adds a particular data plan (identified by <code>itemCode</code>) to a
 	 * particular sale (identified by <code>saleCode</code>) with the specified
 	 * number of gigabytes.
-	 * 
+	 *
 	 * @param saleCode
 	 * @param itemCode
 	 * @param gbs
@@ -165,7 +157,7 @@ public class SalesData {
 	 * Adds a particular voice plan (identified by <code>itemCode</code>) to a
 	 * particular sale (identified by <code>saleCode</code>) with the specified
 	 * <code>phoneNumber</code> for the given number of <code>days</code>.
-	 * 
+	 *
 	 * @param saleCode
 	 * @param itemCode
 	 * @param phoneNumber
