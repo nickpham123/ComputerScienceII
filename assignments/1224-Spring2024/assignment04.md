@@ -190,18 +190,19 @@ Documentation (5)
 
 Design (65)
 
-  *  Database Design
-    *  Column types make sense and properly model the problem
-    *  Data integrity is enforced by database definitions (nullity and key definitions)
-    *  Design allows for extensibility and flexibility
-    *  Database is well-designed
-  *  Primary & Foreign Keys
-    *  Keys are well-defined
-    *  Non-relational or external data are not used as internal keys
-    *  Non-primary keys enforce uniqueness when appropriate
-    *  Foreign Keys define proper relationships
-    *  Key names follow a consistent naming convention
-    * -5 to -15 for not handling "natural" keys (codes) properly
+_Database Design_
+  *  Column types make sense and properly model the problem
+  *  Data integrity is enforced by database definitions (nullity and key definitions)
+  *  Design allows for extensibility and flexibility
+  *  Database is well-designed
+
+_Primary & Foreign Keys_
+  *  Keys are well-defined
+  *  Non-relational or external data are not used as internal keys
+  *  Non-primary keys enforce uniqueness when appropriate
+  *  Foreign Keys define proper relationships
+  *  Key names follow a consistent naming convention
+  * -5 to -15 for not handling "natural" keys (codes) properly
 
 Test Case(s) (25)
 
@@ -213,4 +214,4 @@ Query Correctness (50)
 
 Bonus/Honors Items (10 each)
 
-  *  Geographical data is normalized (at a minimum, state and zip code fields should be normalized) (5)
+  *  Geographical data is normalized (at a minimum, state and zip code fields should be normalized)
