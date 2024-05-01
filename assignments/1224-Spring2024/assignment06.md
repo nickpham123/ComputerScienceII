@@ -51,11 +51,6 @@ application, a mobile app, etc.
 You will turn in all of your code and artifacts using the usual process.
 Name your JAR file `Project.jar` and hand it in using the webhandin.
 
-# Design Write-up
-
-There is no design document for this phase as you were to write about
-both this and the previous phase in the previous draft.
-
 # Rubric (100 pts)
 
 Style (5)
